@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TechBack_security.props" />
+</Project>
