@@ -1,10 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System.Data.SqlClient;
+using TechBack_security.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<DataBaseContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 var app = builder.Build();
 
 string Password =builder.Configuration["Password"];
@@ -12,6 +16,7 @@ var connectionBuilder = new SqlConnectionStringBuilder(builder.Configuration["cs
 connectionBuilder.Password = Password;
 connectionBuilder.UserID = "";
 connectionBuilder.InitialCatalog = "";
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

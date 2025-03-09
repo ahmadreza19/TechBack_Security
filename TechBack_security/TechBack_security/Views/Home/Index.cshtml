@@ -1,9 +1,43 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-@Html.AntiForgeryToken()
+﻿@model IEnumerable<TechBack_security.Models.Entity.Comment>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@{
+    ViewData["Title"] = "Index";
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<div style="direction:rtl; text-align:right">
+    <h1>نظرات کاربران</h1>
+
+    <div class="container">
+        <form method="post" asp-action="SendComment">
+            <div class="form-group">
+                <label>نام</label>
+                <br />
+                <input class="form-control" required type="text" name="Name" placeholder="نام خود را وارد کنید" />
+            </div>
+            <div class="form-group">
+                <label>توضیحات</label>
+                <br />
+                <textarea required cols="5" type="text" class="col-md-12" name="Body" placeholder="لطفا نظر خود را در مورد این مطلب بنویسید"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">ارسال نظر</button>
+        </form>
+    </div>
+
+
+    <hr />
+    <h3>نظر کاربران</h3>
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <div class="card">
+                <label class="card-header">@item.Name</label>
+                <br />
+                <label class="card-body">@Html.Raw(item.Body)</label>
+            </div>
+        }
+        <hr />
+
+    </div>
 </div>
+
+
