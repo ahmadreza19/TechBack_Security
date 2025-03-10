@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Xml.Linq;
+using Elfie.Serialization;
 using Ganss.Xss;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using TechBack_security.Data;
 using TechBack_security.Models;
 using TechBack_security.Models.Entity;
+using TechBack_security.Models.Service;
 
 namespace TechBack_security.Controllers
 {
@@ -14,12 +17,14 @@ namespace TechBack_security.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private IConfiguration _configuration;
-        private readonly DataBaseContext _context;
+        private readonly DataBaseContext _context; 
+        private readonly GoogleRecaptcha _googleRecaptcha;
         public HomeController(ILogger<HomeController> logger, IConfiguration configuration, DataBaseContext context)
         {
             _logger = logger;
             _configuration = configuration;
             _context = context;
+            _googleRecaptcha = new GoogleRecaptcha(configuration);
         }
         //[ValidateAntiForgeryToken]
         //این یک ویژگی(attribute) در ASP.NET است که برای محافظت از برنامه‌های وب در برابر حملات
@@ -57,6 +62,70 @@ namespace TechBack_security.Controllers
 
             // ارسال داده‌های پردازش شده به ویو
             return View(result);
+        }
+        [HttpGet]
+        public IActionResult Regaster()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Regaster(string UserName, string Password)
+        {
+            string googleResponse = HttpContext.Request.Form["g-Recaptcha-Response"];
+
+            if (!_googleRecaptcha.VerifyAsync(googleResponse).Result)
+            {
+                ViewBag.Message = "لطفا بر روی دکمه من ربات نیستم کلیک نمایید";
+                return View();
+            }
+
+            // لیست کلمات و کاراکترهای مشکوک به SQL Injection برای جلوگیری از حملات امنیتی
+            List<string> blackList = new List<string>()
+    {
+        "--", "or", "=", "and", ";", "/*", "*/", "@@", "@", "char", "nchar",
+        "varchar", "nvarchar", "alter", "begin", "cast", "create", "cursor",
+        "declare", "delete", "drop", "end", "exec", "execute", "fetch",
+        "insert", "kill", "open", "select", "sys", "sysobjects", "syscolumns",
+        "table", "update",
+    };
+
+            // بررسی وجود عبارات مشکوک در رمز عبور (جلوگیری از SQL Injection)
+            var passwordCheck = blackList.FirstOrDefault(p => Password.ToUpper().Contains(p.ToUpper()));
+            if (passwordCheck != null)
+            {
+                ViewBag.Message = "احتمال هک شدن وجود دارد";
+                return View();
+            }
+
+            // بررسی وجود عبارات مشکوک در نام کاربری (جلوگیری از SQL Injection)
+            var usernameCheck = blackList.FirstOrDefault(p => UserName.ToUpper().Contains(p.ToUpper()));
+            if (usernameCheck != null)
+            {
+                ViewBag.Message = "احتمال هک شدن وجود دارد";
+                return View();
+            }
+
+            // ایجاد ارتباط با پایگاه داده
+            SqlConnection connection = new SqlConnection("Data Source=.; Initial Catalog=DbSecurity; Integrated Security=True; TrustServerCertificate=Yes");
+            connection.Open();
+
+            // اجرای کوئری برای بررسی ورود کاربر
+            SqlCommand command = new SqlCommand($"SELECT * FROM Users WHERE UserName='{UserName}' AND Password='{Password}'", connection);
+
+            // اجرای کوئری و دریافت نتیجه
+            var result = command.ExecuteReader();
+
+            if (result.Read()) // اگر کاربری با این مشخصات یافت شد
+            {
+                string name = result["UserName"].ToString();
+                ViewBag.Message = $"سلام {name}  ورود شما با موفقیت انجام شد";
+                return View();
+            }
+            else
+            {
+                ViewBag.Message = "ورود ناموفق";
+                return View();
+            }
         }
 
         [HttpPost]
