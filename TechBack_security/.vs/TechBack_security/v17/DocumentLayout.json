@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|c:\\users\\ahmadreza\\desktop\\security\\techback_security\\techback_security\\techback_security\\safeipmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|solutionrelative:techback_security\\safeipmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|c:\\users\\ahmadreza\\desktop\\security\\techback_security\\techback_security\\techback_security\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|solutionrelative:techback_security\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|c:\\users\\ahmadreza\\desktop\\security\\techback_security\\techback_security\\techback_security\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|solutionrelative:techback_security\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|c:\\users\\ahmadreza\\desktop\\security\\techback_security\\techback_security\\techback_security\\models\\service\\googlerecaptcha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|solutionrelative:techback_security\\models\\service\\googlerecaptcha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +27,12 @@
       "RelativeMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|solutionrelative:techback_security\\views\\home\\regaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|c:\\users\\ahmadreza\\desktop\\security\\techback_security\\techback_security\\techback_security\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|solutionrelative:techback_security\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|c:\\users\\ahmadreza\\desktop\\security\\techback_security\\techback_security\\techback_security\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|solutionrelative:techback_security\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|c:\\users\\ahmadreza\\desktop\\security\\techback_security\\techback_security\\techback_security\\models\\entity\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|solutionrelative:techback_security\\models\\entity\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|c:\\users\\ahmadreza\\desktop\\security\\techback_security\\techback_security\\techback_security\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|solutionrelative:techback_security\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C140907-1EA7-4189-917B-BF6C33C143DC}|TechBack_security\\TechBack_security.csproj|c:\\users\\ahmadreza\\desktop\\security\\techback_security\\techback_security\\techback_security\\migrations\\20250309073100_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Regaster.cshtml",
-              "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Views\\Home\\Regaster.cshtml",
-              "RelativeDocumentMoniker": "TechBack_security\\Views\\Home\\Regaster.cshtml",
-              "ToolTip": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Views\\Home\\Regaster.cshtml",
-              "RelativeToolTip": "TechBack_security\\Views\\Home\\Regaster.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-10T08:16:33.851Z",
+              "DocumentIndex": 0,
+              "Title": "SafeIpMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\SafeIpMiddleware.cs",
+              "RelativeDocumentMoniker": "TechBack_security\\SafeIpMiddleware.cs",
+              "ToolTip": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\SafeIpMiddleware.cs",
+              "RelativeToolTip": "TechBack_security\\SafeIpMiddleware.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T08:33:10.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GoogleRecaptcha.cs",
               "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Models\\Service\\GoogleRecaptcha.cs",
               "RelativeDocumentMoniker": "TechBack_security\\Models\\Service\\GoogleRecaptcha.cs",
@@ -120,26 +124,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Program.cs",
               "RelativeDocumentMoniker": "TechBack_security\\Program.cs",
               "ToolTip": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Program.cs",
               "RelativeToolTip": "TechBack_security\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T07:04:49.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\appsettings.json",
               "RelativeDocumentMoniker": "TechBack_security\\appsettings.json",
               "ToolTip": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\appsettings.json",
               "RelativeToolTip": "TechBack_security\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-09T07:02:59.374Z",
               "EditorCaption": ""
@@ -147,6 +151,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Regaster.cshtml",
+              "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Views\\Home\\Regaster.cshtml",
+              "RelativeDocumentMoniker": "TechBack_security\\Views\\Home\\Regaster.cshtml",
+              "ToolTip": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Views\\Home\\Regaster.cshtml",
+              "RelativeToolTip": "TechBack_security\\Views\\Home\\Regaster.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T08:16:33.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Models\\Entity\\Comment.cs",
               "RelativeDocumentMoniker": "TechBack_security\\Models\\Entity\\Comment.cs",
@@ -154,12 +170,11 @@
               "RelativeToolTip": "TechBack_security\\Models\\Entity\\Comment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T06:57:27.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T06:57:27.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TechBack_security\\Controllers\\HomeController.cs",
@@ -172,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TechBack_security\\Views\\Home\\Index.cshtml",
@@ -180,12 +195,11 @@
               "RelativeToolTip": "TechBack_security\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-08T07:17:40.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T07:17:40.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "20250309073100_init.cs",
               "DocumentMoniker": "C:\\Users\\AhmadReza\\Desktop\\Security\\TechBack_Security\\TechBack_security\\TechBack_security\\Migrations\\20250309073100_init.cs",
               "RelativeDocumentMoniker": "TechBack_security\\Migrations\\20250309073100_init.cs",
@@ -193,8 +207,7 @@
               "RelativeToolTip": "TechBack_security\\Migrations\\20250309073100_init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T07:31:01.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T07:31:01.608Z"
             }
           ]
         }

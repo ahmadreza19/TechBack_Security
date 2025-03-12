@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechBack_security")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f213f9ee9b50b34474b56b99207f9371bbd7982e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d4a9f9089ac383ccd1e0a35253f78c572baf848")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechBack_security")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechBack_security")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
